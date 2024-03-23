@@ -1,4 +1,5 @@
 Solution for lecture [deep learning system](https://dlsyscourse.org/)
+(test data is not provided, you can download cifar10 and ptb to data/ folder)
 
 
 
