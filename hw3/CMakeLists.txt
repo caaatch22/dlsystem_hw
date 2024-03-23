@@ -17,10 +17,10 @@ find_package(pybind11 PATHS ${__pybind_path})
 
 if(NOT MSVC)
   set(CMAKE_CXX_FLAGS "-std=c++17 -O3 -march=native ${CMAKE_CXX_FLAGS}")
-  set(CMAKE_CUDA_STANDARD 14)
+  set(CMAKE_CUDA_STANDARD 17)
 else()
   set(CMAKE_CXX_FLAGS "/std:c++17 -O3 -march=native ${CMAKE_CXX_FLAGS}")
-  set(CMAKE_CUDA_STANDARD 14)
+  set(CMAKE_CUDA_STANDARD 17)
 endif()
 
 include_directories(SYSTEM ${pybind11_INCLUDE_DIRS})
